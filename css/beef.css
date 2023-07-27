@@ -1,0 +1,198 @@
+/* Starting with a solid, well-structured document that's readable in normal flow is the best way to begin any webpage. */
+
+html {
+    background-color:cornflowerblue;
+    background-image: url("../images/anime-background.jpeg");
+    font-size: 62.5%;
+    box-sizing: border-box;
+    max-width: 600px;
+    
+
+}
+
+body {
+    background-color: orchid;
+    background-image: url("../images/download.jpeg");
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    margin-left: 10em;
+    margin-right: 10em;
+    padding-right: 50em;
+    padding-left: 50em;
+    padding-bottom: 100em;
+    border: 3px solid yellow;
+    line-height: 1.6;
+    
+}
+
+
+
+.nav-bar  {
+    background-color: blanchedalmond;
+    display: inline;
+    color: brown;
+    margin-left: -48.5em;
+    margin-top: 1em;
+    padding-right: 3em;
+    padding-left: 1em;
+    border-bottom: 2px solid red;
+    
+    
+}
+
+.stew-header {
+    width: 67rem;
+    height: auto;
+    position:relative;
+    right: 37.5rem;
+    top: 3rem;
+    border: 5px solid aqua;
+    box-shadow: 10px 10px 5px 12px lightblue;
+}
+figcaption {
+    
+    
+    width: 200px;
+    font-size: 1rem;
+    margin-left: 5rem;
+    margin-right: 50rem;
+
+}
+
+.introduction {
+    width: 70rem;
+    height: auto;
+    min-width: 10rem;
+    font-size: 2rem;
+    position: relative;
+    right: 45rem;
+    top: 15rem;
+    border: 3px solid red;
+    background-image: url("../images/anime-vibe-background2.webp");
+    
+}
+
+h1 {
+    position: relative;
+    top: 13rem;
+    color:blueviolet;
+    font-size: 5rem;
+    margin-bottom: -1rem;
+    margin-left: -45rem;
+    border: 3 solid red;
+    text-shadow: 2px 2px 5px red;
+    
+}
+/** overal position*/
+
+.list-box {
+    border: 2px solid blue;
+    position: relative;
+    right: 45rem;
+    top: 16rem;
+    width: 94rem;
+    height: auto;
+    background-image: url("../images/anime-vibe-background.jpeg");
+   
+}
+/** control overal size*/
+.list-one, .list-two {
+    right: 5em;
+    margin-top: 5em;
+}
+.list-one ul {
+    display: inline-flex;
+    margin-top: -3em;
+    
+}
+.beef,.lamb {
+    margin-right: 30em;
+}
+
+.list-two ul {
+    display: inline-flex;
+}
+
+
+
+/** individual class to adjust margin */
+.list {
+    width: 25em;
+    height: auto;
+    border: 4px groove pink;
+    
+}
+
+.list-heading {
+    font-size: 4.5rem;
+    width: 50rem;
+    height: auto;
+    position: relative;
+    top: 4em;
+    position: relative;
+    right: 3.5em;
+    left: auto;
+    border: 3px solid green;
+}
+
+.ingre {
+    position: relative;
+    color:blueviolet;
+    top: 20rem;
+    right: 3.5em;
+    left: auto;
+    font-size: 5rem;
+    border: 3 solid red;
+    text-shadow: 2px 2px 5px red;
+}
+
+.slider {
+    width: 800px;
+    height: 900px;
+    background-color: yellow;
+    margin-left: -400px;
+    margin-right: auto;
+    margin-top: 220px;
+    text-align: center;
+    overflow: hidden;
+  }
+  .image-container {
+    width: 100%;
+    background-color: pink;
+    height: 100%;
+    clear: both;
+    position: relative;
+    -webkit-transition: left 2s;
+    -moz-transition: left 2s;
+    -o-transition: left 2s;
+    transition: left 2s;
+  }
+  .slide {
+    float: left;
+    margin: 0px;
+    padding: 0px;
+    position: relative;
+  }
+  #slide-1:target ~ .image-container {
+    left: 0px;
+  }
+  #slide-2:target ~ .image-container {
+    left: -500px;
+  }
+  #slide-3:target ~ .image-container {
+    left: -1000px;
+  }
+  .buttons {
+    position: relative;
+    top: -20px;
+  }
+  .buttons a {
+    display: inline-block;
+    height: 15px;
+    width: 15px;
+    border-radius: 50px;
+    background-color: lightgreen;
+  }
+
+
+
+
