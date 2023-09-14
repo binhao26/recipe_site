@@ -43,8 +43,12 @@ body {
 
 .nav ul li {
     margin-right: 5%; 
-   
-   
+    
+}
+
+.nav ul li:hover, .nav ul li:active {
+    text-shadow: 2px 2px 5px white;
+
 }
 
 
@@ -59,19 +63,26 @@ body {
     margin-left: 4vw;
 }
 
+.logo-img:hover {
+    box-shadow: -2px 2px 10px 10px white;
+}
+
+
+
 .logo h1 {
     margin-left: 8rem;
     margin-bottom: -1.15rem;
-    text-shadow: 2px 2px 1px black;
+    text-shadow: 0 0 10px rgb(255, 255, 255), 0 0 20px rgb(255, 215, 178), 0 0 30px #ff0080, 0 0 40px #ff25ff, 0 0 50px #cb00e6, 0 0 60px #ff6262, 0 0 70px #ea00ff;
+    
 }
 
 .logo-img {
     width: 13rem;
     height: auto;
-    border-left: 3px solid whitesmoke;
-    border-right: 7px groove whitesmoke;
-    border-bottom: 5px groove whitesmoke;
-    border-top: 5px groove whitesmoke;
+    border-left: 3px solid black;
+    border-right: 7px groove black;
+    border-bottom: 5px groove black;
+    border-top: 5px groove black;
     margin-left: 5rem;
     
 }
@@ -95,6 +106,32 @@ body {
 .recipe-container1 {
     margin-top: 5rem;
 }
+
+.recipe-img-container .burger:hover {
+    box-shadow: 0 0 10px rgb(255, 255, 255), 0 0 20px rgb(255, 215, 178), 0 0 30px #ff0080, 0 0 40px #ff25ff, 0 0 50px #cb00e6, 0 0 60px #ff6262, 0 0 70px #ea00ff;
+}
+
+.recipe-img-container .cheesecake:hover {
+    box-shadow: 0 0 10px rgb(255, 255, 255), 0 0 20px rgb(255, 245, 235), 0 0 30px #daff38, 0 0 40px #ff0d0d, 0 0 50px #ffe44a, 0 0 60px #ffe99f, 0 0 70px #ffe602;
+}
+
+.recipe-img-container .beef:hover {
+    box-shadow: 0 0 10px rgb(255, 255, 255), 0 0 20px rgb(255, 245, 235), 0 0 30px #ff7139, 0 0 40px #9e0000, 0 0 50px #ff0000, 0 0 60px #ff0000, 0 0 70px #ff2234;
+}
+
+.recipe-box .chicken:hover {
+    box-shadow: 0 0 10px rgb(255, 255, 255), 0 0 20px rgb(255, 245, 235), 0 0 30px #e03400, 0 0 40px #ff4800, 0 0 50px #ff7535, 0 0 60px #ff6123, 0 0 70px #ff0000;
+}
+
+.recipe-box .mac:hover {
+    box-shadow: 0 0 10px rgb(255, 255, 255), 0 0 20px rgb(255, 245, 235), 0 0 30px #96ff34, 0 0 40px #74ff7b, 0 0 50px #34ffbb, 0 0 60px #76f6ff, 0 0 70px #8fff44;
+}
+
+.recipe-box .spaghetti:hover {
+    box-shadow: 0 0 10px rgb(255, 255, 255), 0 0 20px rgb(255, 245, 235), 0 0 30px #351eff, 0 0 40px #3ab7ff, 0 0 50px #4400ff, 0 0 60px #1c86ff, 0 0 70px #6aaaff;
+}
+
+
 
 .recipe-container1,.recipe-box {
    
@@ -143,9 +180,15 @@ body {
 
 .desc p {
     margin-top: 0;
+    margin-right: 0;
     text-align: center;
     font-size: smaller;
     color: antiquewhite;
+    max-width: 150px;
+}
+
+.burger-desc p {
+    margin-left: -1.8vw;
 }
 
 
@@ -154,14 +197,24 @@ body {
     margin-left: 20vw;
 }
 
+.chicken-desc {
+    margin-left: 19vw;
+}
+
+
+
 .cheese-desc {
     color: blueviolet;
-    margin-left: 14vw;
+    margin-left: 11vw;
 }
 
 .macncheese-desc {
     color: yellow;
-    margin-left: 15vw;
+    margin-left: 16vw;
+}
+
+.macncheese-desc p {
+    margin-left: -2vw;
 }
 
 .beef-desc,.spag-desc {
@@ -169,13 +222,24 @@ body {
     margin-left: 15vw;
 }
 
+.spag-desc {
+    margin-left: 12vw;
+}
+
+.spag-desc p {
+    margin-left: -1vw;
+}
+
+
+
+.beef-desc {
+    margin-left: 13vw;
+}
+
 .middle-line {
     margin-bottom: 2rem;
 }
 
-footer {
-    border: 2px solid green;
-}
 
 footer .footer-img {
     width: 5rem;

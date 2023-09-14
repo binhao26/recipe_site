@@ -3,10 +3,14 @@ body {
     background-color: hotpink;
     max-width: 600px;
     box-sizing: border-box;
+    
 }
 
 .inline-box {
     display: inline-flex;
+    list-style-type: none;
+}
+.instruct-list {
     list-style-type: none;
 }
 
@@ -40,11 +44,12 @@ hr {
 
 .main {
     display: inline-flex;
+    position: absolute;
 }
 
 .left-section,.right-section {
     display: block;
-    border: 2px solid blue;
+   
 }
 
 .left-section {
@@ -163,8 +168,171 @@ hr {
     background-color: antiquewhite;
 }
 
-/*--------------------*/
+/*---------Resource-----------*/
+.resource {
+    margin-top: 2rem;
+    border: 2px solid black;
+    
+   
+}
 
+.btn {
+    width: 10rem;
+    height: 3rem;
+}
+.resource,a{
+    font-size: 1.5rem;
+}
+.resource p {
+    font-size: 1em;
+}
+#ingredient,#equipment {
+    width: 600px;
+    height: 492px;
+}
+#ingredient {
+    margin-top: -1.75rem;
+    background-color: bisque;
+    border: 2px solid orange;
+    
+    
+}
+
+
+
+#ingredient img{
+    margin-right: 1rem;
+}
+#ingredient .ingre-name{
+    margin-right: 3rem;
+}
+
+.btn-box {
+    margin-left: 8.25rem;
+    margin-right: auto;
+    
+}
+
+.oil {
+    margin-left: 18.8rem;
+}
+.mushroom {
+    margin-left: 15.2rem;
+}
+.jam {
+    margin-left: 14.38rem;
+}
+.grape {
+    margin-left: 16.85rem;
+}
+.water {
+    margin-left: 11.5rem;
+}
+.garlic {
+    margin-left: 17.7rem;
+}
+
+
+
+#expand-toggle {
+    display: none;
+}
+
+.label {
+    width: 50px;
+    height: 50px;
+    padding: 3px;
+}
+#ingre-label {
+    position: relative;
+    top: -2.1rem;
+    left: 3rem;
+    background-color: darkorange
+}
+
+
+#expand-btn {
+    position: relative;
+    top: -2.1rem;
+    left: 17rem;
+    background-color: aquamarine;
+}
+
+
+#equipment {
+    position: absolute;
+    top: 40.5rem;
+    visibility: collapse;
+    border: 2px solid yellow;  
+    background-color: aqua;
+}
+
+#expand-toggle:checked + #equipment {
+    visibility: visible;
+}
+
+
+#equipment img {
+    margin-right: 1rem;
+}
+
+.axe {
+    margin-left: 22.5rem;
+}
+.atomic {
+    margin-left: 23rem;
+}
+.eye {
+    margin-left: 23.35rem;
+}
+.pan {
+    margin-left: 26rem;
+}
+.cooker {
+    margin-left: 21.4rem;
+}
+.signal {
+    margin-left: 25.95rem;
+}
+
+/** --------------------**/
+.instruction {
+    margin-top: 3rem;
+}
+.instruction h2 {
+    font-size: 1.8rem;
+}
+.instruction span {
+    font-size: 1.5rem;
+    opacity: 0.5;
+}
+.instruct-list li {
+    margin-bottom: 0.5rem;
+}
+.number {
+    margin-right: 1.5rem;
+}
+
+/**-----------------------**/
+.bottom-line {
+    margin-top: 80rem;
+    width: 83rem;
+    border: 1px solid black;
+}
+
+footer {
+    
+    margin-left: 36rem;
+    width: 10rem;
+    margin-top: -3rem;
+}
+
+footer p {
+    font-size: 1.2em;
+    text-align: center;
+   
+    
+}
 
 
 
